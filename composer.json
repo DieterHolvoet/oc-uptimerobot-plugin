@@ -1,0 +1,23 @@
+{
+    "name": "dieterholvoet/oc-uptimerobot-plugin",
+    "type": "october-plugin",
+    "description": "Provides dashboard widgets with Uptime Robot statistics",
+    "keywords": [
+        "october",
+        "octobercms",
+        "uptimerobot"
+    ],
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Dieter Holvoet",
+            "email": "dieter.holvoet@gmail.com",
+            "role": "Developer"
+        }
+    ],
+    "require": {
+        "php": ">=7.0.8",
+        "composer/installers": "~1.0"
+    },
+    "minimum-stability": "dev"
+}
