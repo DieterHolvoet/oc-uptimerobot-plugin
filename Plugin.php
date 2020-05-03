@@ -42,11 +42,13 @@ class Plugin extends PluginBase
         return [
             Uptime::class =>[
                 'label'   => 'Uptime Robot overall uptime',
-                'context' => 'dashboard'
+                'context' => 'dashboard',
+                'permissions' => ['dieterholvoet.uptimerobot.view_widgets'],
             ],
             ResponseTime::class =>[
                 'label'   => 'Uptime Robot response time',
-                'context' => 'dashboard'
+                'context' => 'dashboard',
+                'permissions' => ['dieterholvoet.uptimerobot.view_widgets'],
             ],
         ];
     }
